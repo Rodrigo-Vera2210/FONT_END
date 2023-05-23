@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#vacio{
+    margin: 150px;
+}
+
+.sinViñeta li{
+    list-style-type: none;
+    display: flex;
+}
+
+footer{
+    background-color: #005677;
+    text-align: center;
+    align-items: center;
+}
+
+footer #parrafoFooter{
+    color: white;
+    vertical-align: middle;
+}
+
+footer img{
+    margin: 10px;
+}
