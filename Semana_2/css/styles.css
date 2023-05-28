@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu-1{
+    background-color: #222222;
+    color: white;
+}
+
+#menu-2{
+    background-color: #F0A83E;
+    color: white;
+}
+
+#menu-2 #title-1{
+    color: #222222;
+}
+
+#menu-2 nav ul{
+    list-style-image: url("../img/Image20230519204931.png");
+}
+
+#plato{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#men-1{
+    background-color: white;
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#men-2{
+    background-color: #F0A83E;
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.main-2{
+    background-color: #FBFAF6;
+}
+
+.precio {
+    color: #F0A83E;
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+}
+#foot-esp {
+    background-color: #F0A83E;
+}
