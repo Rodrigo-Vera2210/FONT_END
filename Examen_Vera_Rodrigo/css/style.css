@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+#main-contenedor{
+    margin: 10px 10%;
+    text-align: end;
+    width: 80%;
+}
+
+#main-contenedor img, #main-contenedor p{
+    width: 100%;
+}
+
+h1{
+    color: #232C50;
+}
+
+button{
+    background-color: #8B48BF;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 10px 30px;
+}
+
+#sec-contenedor{
+    background-color: #3CDDF3;
+    color: white;
+    margin: 20px 0;
+    text-align: start;
+}
+
+#sec-contenedor h3,p{
+    padding: 30px 15px;
+    width: 70%;
+}
+
+#sec-contenedor h3{
+    font-size: 25px;
+}
+
+#sec-contenedor p{
+    font-size: 15px;
+}
+
+#pasos-contenedor{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.pasos-title{
+    background-color: #8B48BF4D;
+    border-radius: 25px 0 0 25px;
+    display: flex;
+}
+
+.numero{
+    background-color: #8B48BF;
+    border-radius: 25px;
+    color: white !important;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+}
+
+.pasos-title h4{
+    color: #323851;
+    padding: 10px;
+}
+
+#pasos-contenedor p{
+    font-size: 15px;
+    color: #B3B2B7;
+    width: 100%;
+}
+
+#best-card{
+    margin: 20px 5%;
+    text-align: center;
+    width: 90%;
+}
+
+#best-card h3{
+    color: #242E53;
+    font-size: 25px;
+}
+
+#best-card p{
+    width: 100%;
+}
+
+#best-card img{
+    position: relative;
+    top: 40px;
+}
+
+.introduccion{
+    background-color: #FAFAFA;
+    color: #B3B2B7;
+    font-size: 12px;
+    padding-top: 40px;
+}
+
+.introduccion h5{
+    color: #3F4868;
+    font-size: 13px;
+}
+
+#best-card button{
+    margin: 30px;
+}
+
+#for-it{
+    background-color: #3CDDF3;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#for-it h3{
+    font-size: 25px;
+    padding: 25px;
+}
+
+#for-it button{
+    background-color: #232C50;
+    font-size: 10px;
+    margin: 20px;
+}
+
+footer{
+    background-color: #1E1E26;
+    text-align: center;
+}
+
+#foot-menu{
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#foot-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#foot-menu ul li{
+    font-size: 14px;
+    padding: 5px;
+    text-align: start;
+    width: 50%;
+}
+
+#redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#buscador{
+    padding: 40px 0 0 0;
+}
+
+#buscador input{
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 35px;
+    padding: 0 25px;
+    width: 70%;
+}
+
+#buscador button{
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+
+footer p{
+    color: #8C8C94;
+    font-size: 13px;
+    padding: 20px 0 50px 0;
+    width: 100%;
+}
+
+footer img{
+    padding: 10px;
+}
+
+button:hover, ul li:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+@media(max-width: 480px){
+    header ul, header button, #c-1, #c-3{
+        display:none !important;
+    }
+}
+
+@media(min-width: 481px){
+    #menu-resumen{
+        display:none !important;
+    }
+
+    header ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+
+    header ul li{
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    header button{
+        height: 35px;
+    }
+
+    #main-contenedor{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 10%;
+        padding: 30px 0;
+    }
+
+    #main-contenedor div, #main-contenedor img{
+        width: 40%;
+    }
+
+    #sec-contenedor{
+        align-items: center;
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #sec-contenedor h3, #sec-contenedor p{
+        width: 30%;
+        padding: 30px;
+    }
+
+    #pasos-contenedor{
+        background-color: #FAFAFA;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 5% 0;
+        width: 100%;
+        
+    }
+
+    .pasos-card{
+        padding: 0 2%;
+        width: 40%;
+    }
+
+    .pasos-title{
+        background-color: #FAFAFA;
+    }
+
+    .pasos-card p{
+        padding-left: 15%;
+    }
+
+    #cont-card{
+        display: flex;
+    }
+
+    #for-it{
+        align-items: center;
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 10%;
+    }
+
+    #for-it h3{
+        text-align: start;
+        width: 30%;
+    }
+
+    #for-it button{
+        background-color: white;
+        color: #8B48BF;
+    }
+
+    footer{
+        align-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    footer p{
+        order: 6;
+        width: 30%;
+    }
+
+    #buscador{
+        order: 5;
+        width: 30%;
+    }
+
+    #foot-menu{
+        order: 3;
+        height: 200px;
+        width: 40%;
+    }
+
+    #redes{
+        order: 2;
+        width: 30%;
+    }
+
+    #footer-logo{
+        order: 1;
+    }
+}
+
+
