@@ -1,0 +1,96 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  padding: 0 50px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+}
+body header ul {
+  display: flex;
+  list-style-type: none;
+}
+body header ul li {
+  padding: 10px;
+}
+body main #main-container {
+  display: flex;
+  width: 100%;
+}
+body main #main-container #container-interaccion {
+  width: 50%;
+}
+body main #main-container #container-interaccion h1 {
+  font-weight: 900;
+  font-size: 250%;
+  width: 70%;
+}
+body main #main-container #container-interaccion h1 ::shadow {
+  background-color: #03faee;
+}
+body main #main-container #container-interaccion p {
+  color: #8b8b8b;
+  font-size: 120%;
+}
+body main #main-container #container-interaccion button {
+  background-color: #03faee;
+  border: 1px solid #8b8b8b;
+  border-radius: 5px;
+  width: 90px;
+  padding: 15px 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+body main #main-container img {
+  width: 50%;
+}
+body main #cards {
+  display: flex;
+}
+body main #cards .card {
+  background-color: #f8f8f8;
+  margin: 10px;
+  padding: 10px;
+}
+body main #cards .card h3 {
+  border: 1px solid black;
+  box-shadow: -3px 1px 1px #03faee;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px;
+}
+body main #cards .card h4, body main #cards .card p {
+  z-index: 1;
+  padding: 0 10px;
+}
+body main #cards .card h4::before {
+  background-color: #03faee;
+  content: "";
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.7;
+}
+body main #cards .card p {
+  font-size: 12px;
+}
+body footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+body footer .redes {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+body footer .redes img {
+  height: 25px;
+  padding: 10px;
+  margin: 0 10px;
+  border: 1 solid transparent;
+  border-radius: 50%;
+  box-shadow: -3px 1px 1px #03faee;
+}/*# sourceMappingURL=style.css.map */

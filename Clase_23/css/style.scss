@@ -1,0 +1,108 @@
+$bg-primary: #03faee;
+$bg-secondary: #f8f8f8;
+$color-primary: #8b8b8b;
+$shadow: #92f7f2;
+$font-body: arial, helvetica, sans-serif;
+$font-h2: impact, heattenschweiler, 'arial narrow bold', sans-serif;
+
+body{
+    font-family: $font-body;
+    padding: 0 50px;
+    header{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            list-style-type: none;
+            li{
+                padding: 10px;
+            }
+        }
+    }
+    main{
+        #main-container{
+            display: flex;
+            width: 100%;
+            #container-interaccion{
+                h1{
+                    font-weight:900;
+                    font-size: 250%;
+                    width: 70%;
+                    ::shadow{
+                        background-color: #03faee;
+                    }
+                }
+                width: 50%;
+                p{
+                    color: $color-primary;
+                    font-size: 120%;
+                }
+                button{
+                    background-color: $bg-primary;
+                    border: 1px solid $color-primary;
+                    border-radius: 5px;
+                    width: 90px;
+                    padding: 15px 0;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                }
+            }
+            img{
+                width: 50%;
+            }
+        }
+        #cards{
+            display: flex;
+            .card{
+                background-color: $bg-secondary;
+                margin: 10px;
+                padding: 10px;
+                h3{
+                    border: 1px solid black;
+                    box-shadow: -3px 1px 1px $bg-primary;
+                    width: 20px;
+                    text-align: center;
+                    border-radius: 50%;
+                    padding: 5px;
+                }
+                h4,p{
+                    z-index: 1;
+                    padding: 0 10px;
+                }
+                h4::before{
+                    background-color: $bg-primary;
+                    content: "";
+                    width: 15px;
+                    height: 10px;
+                    position: absolute;
+                    z-index: 0;
+                    opacity: 0.7;
+                }
+                p{
+                    font-size: 12px;
+                }
+
+            }
+        }
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        .redes{
+            width: 200px;
+            display: flex;
+            justify-content: space-around;
+            img{
+                height: 25px;
+                padding: 10px;
+                margin: 0 10px;
+                border: 1 solid transparent;
+                border-radius: 50%;
+                box-shadow: -3px 1px 1px $bg-primary;
+            }
+        }
+    }
+}
+
+    
